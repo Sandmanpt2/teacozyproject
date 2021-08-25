@@ -1,0 +1,57 @@
+body {
+	background-color: black;
+	color: seashell;
+	font-family: Helvetica;
+	font-size: 22px;
+	opacity: 0.9;
+}
+.header {
+	position: relative;
+	float: right;
+	text-decoration: underline;
+}
+
+.teacozylogo {
+	height: 50px;
+	margin: 10px;
+}
+.missioncontainer {
+	position: relative;
+	text-align: center;
+	color: white;
+
+}
+.missionbackground {
+	height: 700px;
+}
+.missioncontainer h2 {
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: black;
+	width: 1200px;
+	height: 100px;
+}
+.missioncontainer h4 {
+	position: absolute;
+	text-align: center;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 1200px;
+}
+.teacontainer {
+	text-align: center;
+}
+
+section.store {
+	display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.store img {
+	max-height: 200px;
+	max-width: 300px;
+}
